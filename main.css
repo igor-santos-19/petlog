@@ -1,0 +1,180 @@
+    body {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      padding-right:1.5em ;
+      margin: 0;
+      background-image: url(background_body.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .imagem_de_aimal_principal{
+        margin-top: 1.2em;
+        display: grid;
+        justify-content: center;
+        background-image: url(capa.jpg);
+        background-size: cover;
+        object-fit: fill ;
+        background-position: center;
+        border-radius: 15px 100px 30px;
+        height: 25em;
+        width: auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        .menu li a{
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2px;
+            font-weight: 600;
+            color: white; 
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+              text-decoration: none;        
+        }
+        .menu li a:hover{
+            color: yellow;     
+        }
+        .menu li{
+            background-color: rgb(24, 104, 24);
+            padding: 0.8em;
+            margin: 0.3em;
+            text-decoration: none;
+            border-radius: 5px 20px 20px;  
+            list-style: none;
+            text-decoration: none; 
+        }
+        .menu{
+            display: grid;
+            justify-content: center;
+            text-align: center; 
+            text-decoration: none;
+        }
+        .nome_catog{
+            display: grid;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .button{
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            margin-top: 2em;
+            background-color: rgb(61, 61, 214);
+            padding: 1em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 400px;
+            border-radius: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .c1{
+            background-color: rgb(196, 196, 196);
+            border: 2px solid rgb(83, 83, 83);
+            border-radius: 20px;
+            height: 380px;
+            width: 280px;
+            margin: auto;
+            margin-bottom: 1.5em;
+            padding: 15px;
+            box-shadow: 0px 8px 13px;
+        }
+        .c2{
+            height: 180px;
+            background-image: url(pastor_germanico.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-border: 50px;
+            
+        }
+        .c2_2{
+            height: 180px;
+            background-image: url(cachorro_teste.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .c2_3{
+            height: 180px;
+            background-image: url(cachorro_teste3.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .c2_4{
+            height: 180px;
+            background-image: url(dalmata.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .c3{
+            height: 50px;
+        }
+        .paragrafo{
+            text-align: justify;
+        }
+        h2{
+            text-align: justify;
+        }
+        td{
+            display: grid;
+            justify-content: center;
+            border: 2px solid rgb(83, 83, 83); 
+            padding: 5px;
+            border-radius: 5px;
+            margin: auto;
+            width: auto;
+            margin-top: 0.3em;
+        }
+        tr{
+          
+        }
+        table{
+            padding: 1em;
+            display: grid;
+            justify-content: center;
+            margin: auto;
+            width: auto;
+        }
+        footer{
+           padding: 0.7em;
+           color: rgb(255, 255, 255);
+           width: auto;  
+           font-weight: 600;
+           font-size: 1.5em;
+           background-color: rgb(110, 110, 110);
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(52, 52, 131);
+            text-decoration: dashed;
+        }
+        .caes{
+            padding-left: 2.5em;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media only screen and (min-width: 800px) {
+            .imagem_de_aimal_principal{
+                height: 800px;
+            }
+            .c1{
+               
+            }
+            .c2{
+
+            }
+            .c3{
+                
+            }
+        }
+        

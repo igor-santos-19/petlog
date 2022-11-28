@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url(background_body.jpg);
+            background-size: cover;
+        }
+        .principale{
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .input_publique{
+            padding-left: 1.8em;
+            padding-right: 1.5em;
+            height: 3em;
+            border: solid 2px rgb(24, 104, 24);
+            border-radius: 15px;
+        }
+        .upload_foto_animal{
+            padding: 5px;
+        }
+        .squareromm{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .iniciobuttom{
+            background-color:green;
+            padding: 15px;
+            border-radius: 5px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+  }
+        @media only screen and (min-width: 800px) {
+  body {
+    background-image: url('dogzinho_gente_fina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+  .principale{
+    display: grid;
+    justify-content: end;
+    margin: 0;
+    padding-right: 0px;
+  }
+  .emaile{
+    height: 700px;
+    min-height: 500px;
+    padding-left: 100px;
+    padding-top: 200px;
+    background-color: white;
+    margin: 0;
+    padding-right: 80px;
+    
+  }
+  
+}
+    </style>
+
+</head>
+<body>
+    <section class="principale">
+
+    <div class="emaile"> 
+        <h1 class="squareromm">Digite os dados do pet</h1>
+
+
+        
+            <section>
+                <p>Insira o nome do animal</p>
+                <input class="input_publique" type="text" placeholder="Digite o nome do animal...">
+            </section>
+
+            <section>
+                <p>Faixa etaria do animal</p>
+                <input class="input_publique" type="number" placeholder="Digite a idade aproximada...">
+            </section>
+
+            <section>
+                <p>Insira a localização do animal *</p>
+                <input class="input_publique" type="text" placeholder="Digite o local onde o animal esta...">
+            </section>
+
+            <section>
+                <p>Insira um numero para contato *</p>
+                <input class="input_publique" type="number" placeholder="Digite um numero para contato...">
+            </section>
+
+            <p>Envie uma foto do pet *</p>
+
+            <input class="upload_foto_animal" type="file" name="myfile">
+<br><br><br><br>
+            <a href="#" class="iniciobuttom">Enviar</a>
+            <a href="index.html" class="iniciobuttom">Voltar</a>
+        </div>
+</section>
+
+</body>
+</html>
